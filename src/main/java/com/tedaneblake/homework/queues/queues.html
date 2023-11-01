@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Queue ADT</title>
+    <style>
+        html {
+            font-family: sans-serif;
+
+        }
+        main {
+            width: 80%;
+            margin: 0 auto;
+        }
+        code {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-family: monospace;
+        }
+        section {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>The Queue ADT</h1>
+            <ul>
+                <li>The Queue ADT stores arbitrary objects </li>
+                <li>Insertions and deletions follow the first-in first-out <b>FIFO</b></li>
+                <li>We usually say that elements enter a queue at the back and are removed from the front.</li>
+            </ul>
+            <h3>Main Queue operations:</h3>
+            <ul>
+                <li><pre><code>enqueue(object)</code></pre> inserts an element at the end of the queue</li>
+                <li><pre><code>object dequeue()</code></pre> removes and returns the element at the front of the queue</li>
+                <li><pre><code>object first()</code></pre> returns the element at the front without removing it</li>
+                <li><pre><code>int size()</code></pre> returns the number of elements in the queue</li>
+                <li><pre><code>boolean isEmpty()</code></pre> returns true if the queue is empty</li>
+            </ul>
+            <h3>Applications of Queues</h3>
+            <ul>
+                <li>Waiting lists</li>
+                <li>Buffering</li>
+                <li>Simulation of real-world systems</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Array-based Implementation</h2>
+            <ul>
+                <li>Use an array <code>Q</code> of size <code>N</code> to store the elements of the queue</li>
+                <li>Use two integer variables <code>f</code> and <code>r</code> to keep track of the front and rear of the queue</li>
+                <li>Initially, <code>f = r = 0</code></li>
+                <li>When an element is enqueued, it is stored at <code>Q[r]</code> and <code>r</code> is incremented by 1</li>
+                <li>When an element is dequeued, <code>f</code> is incremented by 1 and the element at <code>Q[f]</code> is returned</li>
+                <li>When <code>f = r</code>, the queue is empty</li>
+                <li>When <code>r = N</code>, the queue is full</li>
+                <li>When <code>r = N</code> and <code>f > 0</code>, the queue is full and the array is wrapped around</li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>See PowerPoint below</h2>
+            <iframe src="/Goodrich_6e_Ch06_Queues.pdf" style="width: 100%; min-height: 50rem" ></iframe>
+        </section>
+    </main>
+
+
+</body>
+</html>
