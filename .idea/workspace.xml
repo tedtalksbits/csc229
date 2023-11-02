@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="git ignore" />
+    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="git ignore">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/queues.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/queues.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/Excercises.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/Excercises.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +46,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/tblake/Documents/fall23/csc229",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,11 +63,6 @@
     <configuration name="queues.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/csc229Course/src/main/java/com/tedaneblake/homework/queues/queues.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.queues.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
