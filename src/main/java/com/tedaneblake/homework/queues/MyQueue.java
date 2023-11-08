@@ -10,11 +10,11 @@ import java.util.Queue;
 public class MyQueue<E> implements Queue<E> {
 
     private E[] data;
-    private int front = 0;
+    private int front = 32;
     private int size = 0;
 
     public MyQueue() {
-        this(10);
+        this(32);
     }
     public MyQueue(int capacity) {
         data = (E[]) new Object[capacity]; // unchecked cast
@@ -115,6 +115,7 @@ public class MyQueue<E> implements Queue<E> {
         int avail = (front + size) % data.length;
         data[avail] = e;
         size++;
+        System.out.println(front);
     }
 
     public E first() {
@@ -162,6 +163,34 @@ public class MyQueue<E> implements Queue<E> {
         front = (front + 1) % data.length;
         size--;
         return answer;
+    }
+
+    public static void main(String[] args) {
+         //Create an ArrayQueue with default capacity
+        MyQueue<Integer> queue = new MyQueue<>();
+
+        // Perform 10 enqueue operations
+        for (int i = 1; i <= 10; i++) {
+            queue.enqueue(i);
+        }
+
+        // Perform 10 first operations (retrieve the first element without removing)
+        for (int i = 0; i < 10; i++) {
+            System.out.println("First element: " + queue.first());
+        }
+
+        // Perform 15 dequeue operations
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Dequeue: " + queue.dequeue());
+        }
+        // perform 22 enqueue operations
+        for (int i = 1; i <= 22; i++) {
+            queue.enqueue(i);
+        }
+
+
+         //Check the current size of the queue
+        System.out.println("Current size: " + queue.size()); // 22
     }
 
 

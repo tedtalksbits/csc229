@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="git ignore">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/queues.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/queues.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/MyQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/Excercises.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/Excercises.md" afterDir="false" />
     </list>
@@ -45,12 +45,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/tblake/Documents/fall23/csc229",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,10 +60,81 @@
       <recent name="C:\Users\Tedane Blake\Documents\college\fall23\DATA-STRUCTURES-AND-ALGORITHMS-CSC229\csc229Course\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="queues.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/csc229Course/src/main/java/com/tedaneblake/homework/queues/queues.html" useBuiltInWebServerPort="true">
-      <method v="2" />
+  <component name="RunManager" selected="Application.MyLinkedQueue">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.Main" />
+      <module name="csc229Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedaneblake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <configuration name="MyLinkedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.homework.queues.MyLinkedQueue" />
+      <module name="csc229Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedaneblake.homework.queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.homework.queues.MyQueue" />
+      <module name="csc229Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedaneblake.homework.queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.homework.stacks.MyStack" />
+      <module name="csc229Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedaneblake.homework.stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.homework.recursion.TowerOfHanoi" />
+      <module name="csc229Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedaneblake.homework.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyLinkedQueue" />
+        <item itemvalue="Application.MyQueue" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TowerOfHanoi" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,6 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698862699351</updated>
       <workItem from="1698862700390" duration="6079000" />
+      <workItem from="1699286712320" duration="26181000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -90,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698869327980</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git ignore">
+      <option name="closed" value="true" />
+      <created>1698941067404</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698941067404</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

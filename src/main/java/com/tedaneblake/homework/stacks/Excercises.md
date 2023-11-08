@@ -98,15 +98,19 @@ return 9
 ---
 
 6.4
-public <E> void transferStack(Stack<E> s, Stack<E> t) {
-while(!s.isEmpty()) {
-t.push(S.pop());
-}
-}
+```java 
+    <E> void transferStack(Stack<E> s, Stack<E> t) {
+        while(!s.isEmpty()) {
+            t.push(S.pop());
+        }
+    }
+```
 6.5
-public void emptyStack(Stack<E> s) {
-if(!s.isEmpty()) {
-s.pop();
-emptyStack(s)
-}
-}
+```java
+    public void emptyStack(Stack<E> s) {
+        if(!s.isEmpty()) {
+            s.pop();
+            emptyStack(s)
+        }
+    }
+```

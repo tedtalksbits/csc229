@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recursion</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        main {
+            width: 80%;
+            margin: 0 auto;
+        }
+        pre {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-family: monospace;
+            font-size: 1.2rem;
+            overflow-x: auto;
+        }
+
+        section {
+            min-height: 100vh;
+        }
+
+        #wrapper {
+            display: flex;
+        }
+
+        aside {
+
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #f0f0f0;
+            padding: 1rem;
+            overflow-y: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+</head>
+<body>
+<h2>Topics</h2>
+<ul id="nav">
+    <li><a href="#basic-recursions">Basic Recursive Functions</a></li>
+    <li><a href="#recursion-and-iteration">Recursion and Iteration</a></li>
+    <li><a href="#TailRecursion">Tail Recursion</a></li>
+    <li><a href="#BaseCases">Writing Base Cases in Recursion</a></li>
+    <li><a href="#RecursionVsIteration">Recursion vs Iteration</a></li>
+    <li>
+        <a href="#Algorithms">Solving Algorithms with Recursion</a>
+        <ul>
+            <li><a href="#NaturalNumberSum">Natural Number Sum using Recursion</a></li>
+            <li><a href="#PalindromCheck">Palindrome Check</a></li>
+            <li><a href="#SumOfDigits">Sum of Digits</a></li>
+            <li><a href="#RopeCutting">Rope Cutting Problem</a></li>
+            <li><a href="#TowerOfHanoi">Tower of Hanoi</a></li>
+            <li><a href="#Fibonacci">Fibonacci Series</a></li>
+            <li><a href="#Josephus">Josephus Problem</a></li>
+            <li><a href="#GenerateSubsets">Generate Subsets</a></li>
+            <li><a href="#SubsetSum">Subset Sum Problem</a></li>
+            <li><a href="#PrintingAllPermutations">Printing All Permutations</a></li>
+
+        </ul>
+    </li>
+</ul>
+<div id="wrapper">
+    <main>
+        <h1>Recursion</h1>
+        <h2>What is Recursion?</h2>
+        <ul>
+            <li>Recursion is a technique for solving problems that involves calling a method that calls itself.</li>
+            <li>Recursion is a powerful technique that can be used to simplify a problem.</li>
+            <li>Recursion is a technique that can be used to solve problems that are difficult to solve using other
+                techniques.
+            </li>
+        </ul>
+        <section id="basic-recursions">
+            <div id="factorial">
+                <h2>Basic Recursive Functions</h2>
+                <p>Let's look at some basic recursive functions.</p>
+                <h3>Factorial</h3>
+                <p>Factorial of a number is the product of all the integers from 1 to that number.</p>
+                <p>For example, the factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.</p>
+                <p>Factorial of 0 is 1.</p>
+                <p>Factorial of a negative number is undefined.</p>
+                <p>Here is a recursive function to calculate the factorial of a number.</p>
+                <pre><code>public static int factorial(int n) {
+            if (n == 0) {
+                return 1;
+            }
+            return n * factorial(n - 1);
+
+            }</code></pre>
+                <p>Let's look at the execution of this function for n = 5.</p>
+                <pre>
+                        <code>
+                            factorial(5)
+                            5 * factorial(4)
+                            5 * 4 * factorial(3)
+                            5 * 4 * 3 * factorial(2)
+                            5 * 4 * 3 * 2 * factorial(1)
+                            5 * 4 * 3 * 2 * 1 * factorial(0)
+                            5 * 4 * 3 * 2 * 1 * 1
+                            120
+                        </code>
+                    </pre>
+            </div>
+
+            <div id="NToOne">
+                <h3>N to 1</h3>
+                <p>Here is a recursive function to print numbers from n to 1.</p>
+                <pre><code>public static void printNToOne(int n) {
+            if (n == 0) {
+                return;
+            }
+            System.out.println(n);
+            printNToOne(n - 1);
+        }</code></pre>
+                <p>Let's look at the execution of this function for n = 5.</p>
+                <pre>
+                        <code>
+                            printNToOne(5)
+                            printNToOne(4)
+                            printNToOne(3)
+                            printNToOne(2)
+                            printNToOne(1)
+                            printNToOne(0)
+                            5
+                            4
+                            3
+                            2
+                            1
+                        </code>
+                    </pre>
+            </div>
+
+            <div id="binary-equivalent">
+                <h3>Binary Equivalent</h3>
+                <p>Here is a recursive function to print the binary equivalent of a number.</p>
+                <pre><code>public static void printBinary(int n) {
+            if (n == 0) {
+                return;
+            }
+            printBinary(n / 2);
+            System.out.print(n % 2);
+        }</code></pre>
+                <p>Let's look at the execution of this function for n = 5.</p>
+                <pre>
+                        <code>
+                            printBinary(5) // print 1 because 5 % 2 = 1
+                            printBinary(2) // print 0 because 2 % 2 = 0
+                            printBinary(1) // print 1 because 1 % 2 = 1
+                            printBinary(0) // return because n == 0
+                            1
+                            0
+                            1
+                        </code>
+                    </pre>
+                <img src="../../../../../resources/Binary_counter.gif" alt="">
+            </div>
+        </section>
+        <section id="recursion-and-iteration">
+            <h3>Recursion and Iteration</h3>
+            <p><b>Note</b>: anything that can be done in recursion can be done in a iterator</p>
+            <p>Let's look at the factorial function again.</p>
+            <pre><code>public static int factorial(int n) {
+            if (n == 0) {
+                return 1;
+            }
+            return n * factorial(n - 1);
+
+            }</code></pre>
+            <p>Here is an iterative version of the factorial function.</p>
+            <pre><code>public static int factorial(int n) {
+            int result = 1;
+            for (int i = 1; i <= n; i++) {
+                result *= i;
+            }
+            return result;
+        }</code></pre>
+            <p>Here is a recursive function to print numbers from n to 1.</p>
+            <pre><code>public static void printNToOne(int n) {
+            if (n == 0) {
+                return;
+            }
+            System.out.println(n);
+            printNToOne(n - 1);
+        }</code></pre>
+            <p>Here is an iterative version of the printNToOne function.</p>
+            <pre><code>public static void printNToOne(int n) {
+            for (int i = n; i >= 1; i--) {
+                System.out.println(i);
+            }
+        }</code></pre>
+            <p>Here is a recursive function to print the binary equivalent of a number.</p>
+            <pre><code>public static void printBinary(int n) {
+            if (n == 0) {
+                return;
+            }
+            printBinary(n / 2);
+            System.out.print(n % 2);
+        }</code></pre>
+            <p>Here is an iterative version of the printBinary function.</p>
+            <pre><code >public static void printBinary(int n) {
+            while (n != 0) {
+                System.out.print(n % 2);
+                n /= 2;
+            }
+        }</code></pre>
+
+        </section>
+
+    </main>
+    <aside>
+        <ul >
+            <li><a href="#basic-recursions">Basic Recursive Functions</a></li>
+            <li><a href="#recursion-and-iteration">Recursion and Iteration</a></li>
+            <li><a href="#TailRecursion">Tail Recursion</a></li>
+            <li><a href="#BaseCases">Writing Base Cases in Recursion</a></li>
+            <li><a href="#RecursionVsIteration">Recursion vs Iteration</a></li>
+            <li>
+                <a href="#Algorithms">Solving Algorithms with Recursion</a>
+                <ul>
+                    <li><a href="#NaturalNumberSum">Natural Number Sum using Recursion</a></li>
+                    <li><a href="#PalindromCheck">Palindrome Check</a></li>
+                    <li><a href="#SumOfDigits">Sum of Digits</a></li>
+                    <li><a href="#RopeCutting">Rope Cutting Problem</a></li>
+                    <li><a href="#TowerOfHanoi">Tower of Hanoi</a></li>
+                    <li><a href="#Fibonacci">Fibonacci Series</a></li>
+                    <li><a href="#Josephus">Josephus Problem</a></li>
+                    <li><a href="#GenerateSubsets">Generate Subsets</a></li>
+                    <li><a href="#SubsetSum">Subset Sum Problem</a></li>
+                    <li><a href="#PrintingAllPermutations">Printing All Permutations</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<!-- and it's easy to individually load additional languages -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+<script>hljs.highlightAll();</script>
+<script>
+    document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+    });
+
+    // add ids to h2s
+    document.querySelectorAll('h2').forEach((h2) => {
+        h2.id = h2.textContent.replace(/\s+/g, '-').toLowerCase();
+    });
+
+    // add ids to h3s
+    document.querySelectorAll('h3').forEach((h3) => {
+        h3.id = h3.textContent.replace(/\s+/g, '-').toLowerCase();
+    });
+
+</script>
+<script>
+
+    // if scrolling down, hide #nav and show when scrolling up
+    //let prevScrollPos = window.scrollY;
+    // window.onscroll = function () {
+    //     let currentScrollPos = window.scrollY;
+    //     console.log("previous", prevScrollPos);
+    //     console.log("current",currentScrollPos);
+    //     if (prevScrollPos > currentScrollPos) {
+    //         document.getElementById("nav").style.top = "0";
+    //     } else {
+    //         document.getElementById("nav").style.top = "-50px";
+    //     }
+    //     prevScrollPos = currentScrollPos;
+    // }
+
+    // hide #nav when use scroll 50px down
+    const sidebar = document.querySelector("aside");
+    sidebar.style.display = "none"
+    window.onscroll = function () {
+        const bufferSpace = 50;
+        let currentScrollPos = window.scrollY;
+        const nav = document.getElementById("nav");
+        const main = document.querySelector("main");
+        const navHeight = nav.offsetHeight;
+        if (currentScrollPos > navHeight + bufferSpace) {
+            sidebar.style.display = "block"
+            main.style.width = "80%";
+            main.style.marginLeft = "0";
+
+        }
+        if(currentScrollPos < navHeight + bufferSpace) {
+            sidebar.style.display = "none"
+            main.style.margin = "auto";
+        }
+
+    }
+</script>
+</body>
+</html>
