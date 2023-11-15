@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="11/8/23">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/exceptions/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/exceptions/CustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/MyLinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/MyLinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/QueueHW.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/QueueHW.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/TheJosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/TheJosephusProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/queues.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/queues.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/BinaryEquivalent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/BinaryEquivalent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/FactorialSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/FactorialSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/Fun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/GenerateSubstringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/GenerateSubstringProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/NToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/NToOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/OneToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/OneToN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/PrintPermutationSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/PrintPermutationSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/RopeCuttingSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/RopeCuttingSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/SumOfDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/SumOfNaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/SumOfNaturalNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/TailRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/TailRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/TowerOfHanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/recursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/recursion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/Excercises.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/stacks/Excercises.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/stacks/MyStack.java" afterDir="false" />
-    </list>
+    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="11/15/23 bfs and queues" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +142,7 @@
       <workItem from="1699286712320" duration="27806000" />
       <workItem from="1699849573684" duration="15271000" />
       <workItem from="1700013621418" duration="1800000" />
-      <workItem from="1700070348907" duration="8524000" />
+      <workItem from="1700070348907" duration="8835000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -202,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699474010685</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="11/15/23 bfs and queues">
+      <option name="closed" value="true" />
+      <created>1700079130913</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700079130913</updated>
+    </task>
+    <task id="LOCAL-00006" summary="11/15/23 bfs and queues">
+      <option name="closed" value="true" />
+      <created>1700079136419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700079136419</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +202,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="git ignore" />
     <MESSAGE value="11/8/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="11/8/23" />
+    <MESSAGE value="11/15/23 bfs and queues" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/15/23 bfs and queues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

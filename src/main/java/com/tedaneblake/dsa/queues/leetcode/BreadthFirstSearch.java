@@ -1,4 +1,4 @@
-package com.tedaneblake.dsa.queues;
+package com.tedaneblake.dsa.queues.leetcode;
 
 import java.util.*;
 
