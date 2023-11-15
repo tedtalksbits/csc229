@@ -4,12 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="git ignore">
+    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="11/8/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/Excercises.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/Excercises.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/exceptions/CustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/exceptions/CustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/MyLinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/MyLinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/QueueHW.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/QueueHW.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/TheJosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/TheJosephusProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/queues/queues.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/queues.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/BinaryEquivalent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/BinaryEquivalent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/FactorialSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/FactorialSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Fun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/Fun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/GenerateSubstringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/GenerateSubstringProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/NToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/NToOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/OneToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/OneToN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/PrintPermutationSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/PrintPermutationSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/RopeCuttingSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/RopeCuttingSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/SumOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/SumOfNaturalNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/SumOfNaturalNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/TailRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/TailRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/TowerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/recursion/recursion.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/recursion/recursion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/Excercises.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/stacks/Excercises.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/homework/stacks/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/stacks/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,35 +58,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/tblake/Documents/fall23/csc229",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tblake/Documents/fall23/csc229&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tedane Blake\Documents\college\fall23\DATA-STRUCTURES-AND-ALGORITHMS-CSC229\csc229Course\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedQueue">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.Main" />
+  <component name="RunManager" selected="Application.BreadthFirstSearch">
+    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.BreadthFirstSearch" />
       <module name="csc229Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.homework.queues.MyLinkedQueue" />
+    <configuration name="Fun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.recursion.Fun" />
       <module name="csc229Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.homework.queues.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.homework.queues.MyQueue" />
+    <configuration name="MyCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.MyCircularQueue" />
       <module name="csc229Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.homework.queues.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.homework.stacks.MyStack" />
+    <configuration name="SimpleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.SimpleQueue" />
       <module name="csc229Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.homework.stacks.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.homework.recursion.TowerOfHanoi" />
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.leetcode.ValidParentheses" />
       <module name="csc229Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.homework.recursion.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyLinkedQueue" />
-        <item itemvalue="Application.MyQueue" />
-        <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TowerOfHanoi" />
+        <item itemvalue="Application.BreadthFirstSearch" />
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.MyCircularQueue" />
+        <item itemvalue="Application.SimpleQueue" />
+        <item itemvalue="Application.Fun" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +165,10 @@
       <option name="presentableId" value="Default" />
       <updated>1698862699351</updated>
       <workItem from="1698862700390" duration="6079000" />
-      <workItem from="1699286712320" duration="26181000" />
+      <workItem from="1699286712320" duration="27806000" />
+      <workItem from="1699849573684" duration="15271000" />
+      <workItem from="1700013621418" duration="1800000" />
+      <workItem from="1700070348907" duration="8524000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -171,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698941067404</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="11/8/23">
+      <option name="closed" value="true" />
+      <created>1699474010685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699474010685</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +211,58 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+    <MESSAGE value="11/8/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="11/8/23" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/BreadthFirstSearch.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

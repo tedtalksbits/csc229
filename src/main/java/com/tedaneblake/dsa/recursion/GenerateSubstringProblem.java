@@ -1,4 +1,4 @@
-package com.tedaneblake.homework.recursion;
+package com.tedaneblake.dsa.recursion;
 
 /**
  * @version 1.0

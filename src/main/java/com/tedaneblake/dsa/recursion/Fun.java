@@ -1,4 +1,4 @@
-package com.tedaneblake.homework.recursion;
+package com.tedaneblake.dsa.recursion;
 
 /**
  * The following program recursively prints the value of any as its it passed down and back up the call stack.

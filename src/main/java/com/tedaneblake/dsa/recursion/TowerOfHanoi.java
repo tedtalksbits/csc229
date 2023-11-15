@@ -1,4 +1,4 @@
-package com.tedaneblake.homework.recursion;
+package com.tedaneblake.dsa.recursion;
 
 public class TowerOfHanoi {
     static void toh(int n, char a, char b, char c){

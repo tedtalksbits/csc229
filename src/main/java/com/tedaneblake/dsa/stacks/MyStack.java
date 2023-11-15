@@ -1,4 +1,4 @@
-package com.tedaneblake.homework.stacks;
+package com.tedaneblake.dsa.stacks;
 
 import java.util.ArrayList;
 import java.util.List;

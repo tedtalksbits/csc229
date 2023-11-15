@@ -1,9 +1,7 @@
-package com.tedaneblake.homework.recursion;
+package com.tedaneblake.dsa.recursion;
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import static java.util.Collections.swap;

@@ -1,4 +1,4 @@
-package com.tedaneblake.homework.recursion;
+package com.tedaneblake.dsa.recursion;
 /*
 *
 * You're given a rope of length n, our task is to cut the rope into maximum number of pieces such that every length either of pieces either of a, b, c

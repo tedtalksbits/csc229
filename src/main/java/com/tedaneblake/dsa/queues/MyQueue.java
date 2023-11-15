@@ -1,4 +1,4 @@
-package com.tedaneblake.homework.queues;
+package com.tedaneblake.dsa.queues;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -140,8 +140,7 @@ public class MyQueue<E> implements Queue<E> {
      * by taking the remainder after an integral division. For example, 14 divided by 3
      * has a quotient of 4 with remainder 2, that is, 14
      * 3 = 4 2/3
-     * 3 . So in Java, 14 / 3 evaluates
-     * to the quotient 4, while 14 % 3 evaluates to the remainder 2.
+     * 3 . So in Java, 14 / 3 evaluates to the quotient 4, while 14 % 3 evaluates to the remainder 2.
      * The modulo operator is ideal for treating an array circularly. When we dequeue
      * an element and want to “advance” the front index, we use the arithmetic
      * f = ( f +1) % N. As a concrete example, if we have an array of length 10, and a
