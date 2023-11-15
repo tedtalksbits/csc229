@@ -60,7 +60,20 @@
       <recent name="C:\Users\Tedane Blake\Documents\college\fall23\DATA-STRUCTURES-AND-ALGORITHMS-CSC229\csc229Course\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyDeque">
+  <component name="RunManager" selected="Application.Assignment11_2">
+    <configuration name="Assignment11_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.Assignment11_2" />
+      <module name="csc229Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tedaneblake.dsa.queues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.leetcode.BreadthFirstSearch" />
       <module name="csc229Course" />
@@ -80,19 +93,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tedaneblake.dsa.queues.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.deque.MyDeque" />
-      <module name="csc229Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tedaneblake.dsa.deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyDeque" />
+        <item itemvalue="Application.Assignment11_2" />
         <item itemvalue="Application.BreadthFirstSearch" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.MyCircularQueue" />

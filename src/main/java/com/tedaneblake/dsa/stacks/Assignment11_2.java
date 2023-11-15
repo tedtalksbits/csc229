@@ -1,4 +1,4 @@
-package com.tedaneblake.dsa.queues;
+package com.tedaneblake.dsa.stacks;
 
 import com.tedaneblake.dsa.queues.MyQueue;
 import com.tedaneblake.dsa.stacks.MyStack;
