@@ -4,9 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyStack <E>{
-    private final int CAPACITY = 10;
+    private int CAPACITY = 10;
     private final List<E> store = new ArrayList<>(CAPACITY);
     private int TOP_EL_INDEX = -1;
+
+    public MyStack(int capacity) {
+        if(capacity > 0) {
+            this.CAPACITY = capacity;
+        }
+    }
+
+    public MyStack() {
+        this(10);
+    }
 
     public void push(E element){
         System.out.println("pushing " + element);
@@ -40,6 +50,15 @@ public class MyStack <E>{
 
     public boolean isEmpty() {
         return TOP_EL_INDEX < 0;
+    }
+
+    @Override
+    public String toString() {
+        return "MyStack{" +
+                "CAPACITY=" + CAPACITY +
+                ", store=" + store +
+                ", TOP_EL_INDEX=" + TOP_EL_INDEX +
+                '}';
     }
 
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
 package com.tedaneblake.dsa.queues;
 
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Queue;
@@ -10,7 +11,7 @@ import java.util.Queue;
 public class MyQueue<E> implements Queue<E> {
 
     private E[] data;
-    private int front = 32;
+    private int front = 0;
     private int size = 0;
 
     public MyQueue() {
@@ -27,7 +28,7 @@ public class MyQueue<E> implements Queue<E> {
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return front == size;
     }
 
     @Override
@@ -115,7 +116,6 @@ public class MyQueue<E> implements Queue<E> {
         int avail = (front + size) % data.length;
         data[avail] = e;
         size++;
-        System.out.println(front);
     }
 
     public E first() {
@@ -162,6 +162,15 @@ public class MyQueue<E> implements Queue<E> {
         front = (front + 1) % data.length;
         size--;
         return answer;
+    }
+
+    @Override
+    public String toString() {
+        return "MyQueue{" +
+                "data=" + Arrays.toString(data) +
+                ", front=" + front +
+                ", size=" + size +
+                '}';
     }
 
     public static void main(String[] args) {
