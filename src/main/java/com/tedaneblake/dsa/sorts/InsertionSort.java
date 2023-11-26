@@ -9,8 +9,12 @@ package com.tedaneblake.dsa.sorts;
 public class InsertionSort {
 
     public static void main(String[] args) {
-        int[] arr = {5, 2, 4, 6, 1, 3};
+        int[] arr = {31, 41, 59, 26, 41, 58};
         insertionSort(arr);
+        for (int i : arr) {
+            System.out.println(i);
+        }
+        insertionSortDesc(arr);
         for (int i : arr) {
             System.out.println(i);
         }
@@ -29,4 +33,39 @@ public class InsertionSort {
             arr[i + 1] = currInt;
         }
     }
+
+    public static void insertionSortDesc(int[] arr) {
+
+        // iterate over arr starting from index 1
+        for (int i = 0; i < arr.length; i++){
+            // initialize current value
+            int currValue = arr[i];
+            // iterate over previous values
+            // initial left point
+            int leftP = i - 1;
+             // while current value > prev values
+            while(leftP >= 0 && arr[leftP] < currValue){
+
+                // shift greater values in place
+                arr[leftP + 1] = arr[leftP];
+
+                leftP--;
+            }
+
+            arr[leftP + 1] = currValue;
+
+        }
+    }
+
+    /*
+    * arr = {5, 2, 4, 6, 1, 3};
+    * j = 1
+    * i = 0
+    * currInt = 2
+    * arr[i] = 5
+    * arr[i+1] = 2
+    *
+    *
+    *
+     */
 }
