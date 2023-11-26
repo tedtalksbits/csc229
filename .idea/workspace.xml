@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="deque hw questions, project structure">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/deque/deque-hw.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/deque/deque-hw.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/stacks/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/stacks/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/trees/MyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/trees/MyTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
