@@ -1,5 +1,7 @@
 package com.tedaneblake.dsa.queues.leetcode;
 
+import com.tedaneblake.dsa.trees.TreeNode;
+
 import java.util.*;
 
 public class BreadthFirstSearch {
@@ -21,11 +23,9 @@ public class BreadthFirstSearch {
         *
         * */
         Queue<TreeNode> q = new LinkedList<>();
-        Set<TreeNode> visited = null;
         int step = 0;
-
+        if(root == null) return 0;
         q.add(root);
-        visited.add(root);
 
         while (!q.isEmpty()){
             int queueSize = q.size();
@@ -33,14 +33,12 @@ public class BreadthFirstSearch {
             for (int i = 0; i < queueSize; i++) {
                 TreeNode currNode = q.remove();
 
-                if(currNode.val == target.val) {
+                if(currNode.value == target.value) {
                     return step;
                 }
                 TreeNode next = currNode.left;
                 while (next != null) {
                     // iterate over current's neighbors
-                    // if i is not in visited, add to visited and
-                    visited.add(next);
                     q.add(next);
                     next = next.left;
                 }
@@ -58,6 +56,9 @@ public class BreadthFirstSearch {
 
     public static List<List<Integer>> levelOrder(TreeNode root) {
 
+        if(root == null)
+            return new ArrayList<>();
+
         Queue<TreeNode> q = new LinkedList<>();
 
         List<List<Integer>> levels = new ArrayList<>();
@@ -74,10 +75,10 @@ public class BreadthFirstSearch {
                 TreeNode currNode = q.remove();
                 // skip null nodes
                 if (currNode != null){
-                    System.out.println("currentNode: "+ currNode.val);
+                    System.out.println("currentNode: "+ currNode.value);
                     System.out.println("i: " + i);
                     // we've found a level
-                    level.add(currNode.val);
+                    level.add(currNode.value);
                     // add currNode's children to the queue
                     q.add(currNode.left);
                     q.add(currNode.right);
@@ -93,21 +94,6 @@ public class BreadthFirstSearch {
         return levels;
     }
 
-
-
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {this.val = val;}
-        TreeNode(int val, TreeNode left, TreeNode right){
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
 
 
     public static void main(String[] args) {
