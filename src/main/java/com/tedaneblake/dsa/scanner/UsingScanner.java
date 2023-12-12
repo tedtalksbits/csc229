@@ -15,8 +15,5 @@ public class UsingScanner {
             String line = scanner.nextLine();
             System.out.println(line);
         }
-
-
-
     }
 }

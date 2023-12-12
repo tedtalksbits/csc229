@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="iterators" />
+    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="iterators">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/scanner/UsingScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/scanner/UsingScanner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +62,7 @@
       <recent name="C:\Users\Tedane Blake\Documents\college\fall23\DATA-STRUCTURES-AND-ALGORITHMS-CSC229\csc229Course\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeMinValueProblem">
+  <component name="RunManager" selected="Application.Iterators">
     <configuration name="Assignment11_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.Assignment11_2" />
       <module name="csc229Course" />
@@ -73,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.leetcode.BreadthFirstSearch" />
-      <module name="csc229Course" />
+    <configuration name="Iterators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.iterators.Iterators" />
+      <module name="csc229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.dsa.queues.leetcode.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.iterators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.leetcode.ValidParentheses" />
-      <module name="csc229Course" />
+    <configuration name="UsingScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.scanner.UsingScanner" />
+      <module name="csc229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.dsa.leetcode.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Iterators" />
+        <item itemvalue="Application.UsingScanner" />
         <item itemvalue="Application.TreeMinValueProblem" />
         <item itemvalue="Application.TreeSumProblem" />
         <item itemvalue="Application.Assignment11_2" />
-        <item itemvalue="Application.BreadthFirstSearch" />
-        <item itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
