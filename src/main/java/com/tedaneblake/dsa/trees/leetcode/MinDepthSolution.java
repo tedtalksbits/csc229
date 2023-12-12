@@ -2,15 +2,16 @@ package com.tedaneblake.dsa.trees.leetcode;
 
 import com.tedaneblake.dsa.queues.leetcode.BreadthFirstSearch;
 import com.tedaneblake.dsa.trees.MyBinaryTree;
+import com.tedaneblake.dsa.trees.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class MinDepthSolution {
 
-    public int minDepthBFS(BreadthFirstSearch.TreeNode root) {
+    public int minDepthBFS(TreeNode root) {
         if(root == null) return 0;
-        Queue<BreadthFirstSearch.TreeNode> q = new LinkedList<>();
+        Queue<TreeNode> q = new LinkedList<>();
 
         q.add(root);
         int depth = 1;
@@ -19,7 +20,7 @@ public class MinDepthSolution {
 
             for(int i = 0; i < qSize; i++){
 
-                BreadthFirstSearch.TreeNode currNode = q.remove();
+                TreeNode currNode = q.remove();
 
                 if(currNode.left == null && currNode.right == null){
                     return depth;
