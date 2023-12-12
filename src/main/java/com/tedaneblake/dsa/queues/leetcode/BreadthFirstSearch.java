@@ -6,7 +6,7 @@ public class BreadthFirstSearch {
 
     // an algorithm for searching a graph
     // breadth = broad/wide
-    // The important data structure for keeping track fo vertices is a QUEUE
+    // The important data structure for keeping track of vertices is a QUEUE
     // video: https://www.youtube.com/watch?v=HZ5YTanv5QE&ab_channel=MichaelSambol
 
     /**
@@ -98,8 +98,8 @@ public class BreadthFirstSearch {
 
     public static class TreeNode {
         int val;
-        TreeNode left;
-        TreeNode right;
+        public TreeNode left;
+        public TreeNode right;
         TreeNode() {}
         TreeNode(int val) {this.val = val;}
         TreeNode(int val, TreeNode left, TreeNode right){
