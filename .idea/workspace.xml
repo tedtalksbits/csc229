@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="deque hw questions, project structure">
+    <list default="true" id="0296fb84-1c94-4079-914f-d64c922667d3" name="Changes" comment="coding techniques">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/trees/MyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/trees/MyTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/trees/MyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/trees/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,15 +52,19 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tedaneblake.dsa.trees" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tedane Blake\Documents\college\fall23\DATA-STRUCTURES-AND-ALGORITHMS-CSC229\csc229Course\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assignment11_2">
+  <component name="RunManager" selected="Application.TreeMinValueProblem">
     <configuration name="Assignment11_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.Assignment11_2" />
       <module name="csc229Course" />
@@ -84,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.MyCircularQueue" />
-      <module name="csc229Course" />
+    <configuration name="TreeMinValueProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.trees.TreeMinValueProblem" />
+      <module name="csc229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.dsa.queues.leetcode.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.queues.SimpleQueue" />
-      <module name="csc229Course" />
+    <configuration name="TreeSumProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tedaneblake.dsa.trees.TreeSumProblem" />
+      <module name="csc229" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tedaneblake.dsa.queues.leetcode.*" />
+          <option name="PATTERN" value="com.tedaneblake.dsa.trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMinValueProblem" />
+        <item itemvalue="Application.TreeSumProblem" />
         <item itemvalue="Application.Assignment11_2" />
         <item itemvalue="Application.BreadthFirstSearch" />
         <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.MyCircularQueue" />
-        <item itemvalue="Application.SimpleQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -216,56 +223,5 @@
     <MESSAGE value="11/15/23 bfs and queues" />
     <MESSAGE value="deque hw questions, project structure" />
     <option name="LAST_COMMIT_MESSAGE" value="deque hw questions, project structure" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>87</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tedaneblake/dsa/queues/leetcode/BreadthFirstSearch.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
